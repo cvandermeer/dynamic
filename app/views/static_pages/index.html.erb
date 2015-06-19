@@ -1,0 +1,9 @@
+<div class="content">
+	<% if Time.now.hour > 17 %>
+		<h1>Good Evening</h1>
+	<% elsif Time.now.hour > 11 %>
+		<h1>Good Afternoon</h1>
+	<% else %>
+		<h1>Good morning</h1>
+	<% end %>
+</div>
